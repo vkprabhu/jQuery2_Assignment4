@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+		<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div>
+			<p>Click the button to change the background color</p>
+			<button>Click me!</button>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+    			$("button").click(function() {
+    				$("div").animate({backgroundColor: 'yellow'})
+    				//console.log("Done!")
+    			})
+			});
+		</script>
+	</body>
+</html>
